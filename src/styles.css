@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(17, 228, 193, 0.863);
+}
+.box {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  border-top: 0px;
+  padding: 2cm;
+  font-family: sans-serif;
+  text-align: center;
+  height: max-content;
+}
+
+button {
+  width: 2cm;
+  height: 2cm;
+  background-color: rgba(17, 228, 193, 0.863);
+  border-color: rgba(0, 255, 213, 0.863);
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 20px;
+}
+
+h1 {
+  padding-bottom: 0.5cm;
+  font-size: 50px;
+  color: #fff;
+}
+h3 {
+  padding: 1cm;
+  color: #fff;
+  word-spacing: 0.5cm;
+}
+.popuptext,
+.winner {
+  visibility: hidden;
+  height: 1cm;
+}
+
+.show {
+  visibility: visible;
+  background-color: #555;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  color: #fff;
+  padding: 0.2cm 0.2cm;
+  border-radius: 0.1cm;
+}
+
+.show1 {
+  visibility: visible;
+  background-color: rgba(0, 255, 0, 0.2);
+  width: 17cm;
+  height: fit-content;
+  text-align: center;
+  color: #fff;
+  padding: 4cm 10cm;
+  border-radius: 0.1cm;
+  border: radius 0.5cm;
+  font: 30px;
+  display: grid;
+  gap: 1cm;
+  justify-content: center;
+  font-size: 30px;
+}
+.show1 button {
+  background-color: green;
+  height: 1cm;
+  width: 2cm;
+  margin-left: 10cm;
+}
