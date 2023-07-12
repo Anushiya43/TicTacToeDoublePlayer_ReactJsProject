@@ -1,3 +1,3 @@
 # TicTacToeDoublePlayer_ReactJsProject
 output:
-https://5kcukh.csb.app/
+https://csb-5kcukh.netlify.app/
