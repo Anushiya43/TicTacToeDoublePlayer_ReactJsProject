@@ -53,8 +53,7 @@ export default function App() {
         continue;
       }
     }
-    
-
+  }
   return (
     <div className="App">
       <h1>Tic-Tac-Toe{count}</h1>
